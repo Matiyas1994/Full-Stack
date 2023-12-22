@@ -8,10 +8,13 @@ const Header = ({course}) => {
 
 const  Content = ({part, exercises}) => {
   return(
-    <p>
-    {part} {exercises}
-  </p>
-  )
+    <>
+      <p>
+        {part} {exercises}
+      </p>
+
+    </>
+      )
 }
 
 const Total = ({exercises1, exercises2, exercises3}) =>{
